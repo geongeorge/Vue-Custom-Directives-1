@@ -1,7 +1,9 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <p>Testing out custom directives in <span v-highlight.blink="'#26cc60'">vue</span></p>
+    <p v-highlight="'red'">Hello</p>
+    <p v-highlight.blink="'green'">Hello</p>
   </div>
 </template>
 
@@ -23,6 +25,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin: 60px auto;
+  max-width: 400px;
 }
 </style>
