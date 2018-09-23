@@ -4,6 +4,15 @@
 
 ![alt text](GIF.gif)
 
+## Directive Use
+```
+<p v-highlight="'red'">Hello</p>
+
+<p v-highlight.blink="'green'">Hello</p>
+
+<span v-highlight="'#fff'">Hello</span>
+```
+
 ## Project setup
 ```
 npm install
